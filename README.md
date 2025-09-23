@@ -59,6 +59,7 @@ The relationships between different tables in the warehouse are documented below
 - Clear documentation & diagrams for architecture, data flow, and schema.
 - Test scripts for validating transformations and data quality.
 
+---
 ## ⚙️ Implementation Highlights  
 
 - **Data Ingestion:** Loaded CSV files into SQL Server using `BULK INSERT`.  
@@ -67,6 +68,7 @@ The relationships between different tables in the warehouse are documented below
 - **Modeling:** Designed a Star Schema with fact and dimension tables, using surrogate keys for consistency.  
 - **Version Control:** All SQL scripts, diagrams, and documentation are stored and managed in GitHub.  
 
+---
 ## 🛠 Tech Stack
 - **Database:** SQL Server
 - **ETL / Transformation:** SQL Scripts
