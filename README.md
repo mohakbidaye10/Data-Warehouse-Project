@@ -30,6 +30,7 @@ Gold Layer (Business Zone):
 The data ingestion and transformation pipeline moves data across Bronze → Silver → Gold layers.  
 
 <img width="687" height="531" alt="Data FLow Diagram drawio" src="https://github.com/user-attachments/assets/fa906602-5b5d-4ad8-bab8-a5869e7757da" />  
+
 *Figure 2: Data Flow Diagram*  
 
 ---
