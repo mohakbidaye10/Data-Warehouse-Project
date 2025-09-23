@@ -52,6 +52,12 @@ The relationships between different tables in the warehouse are documented below
 *Figure 4: Table Relationships*  
 
 ---
+## ✨ Features
+- Multi-layered Medallion Architecture (Bronze, Silver, Gold).
+- ETL Pipelines for structured data movement.
+- Star Schema data modeling for optimized queries.
+- Clear documentation & diagrams for architecture, data flow, and schema.
+- Test scripts for validating transformations and data quality.
 
 ## ⚙️ Implementation Highlights  
 
@@ -60,3 +66,10 @@ The relationships between different tables in the warehouse are documented below
 - **Data Quality:** Removed duplicates, enforced key relationships, and added audit columns for tracking.  
 - **Modeling:** Designed a Star Schema with fact and dimension tables, using surrogate keys for consistency.  
 - **Version Control:** All SQL scripts, diagrams, and documentation are stored and managed in GitHub.  
+
+## 🛠 Tech Stack
+- **Database:** SQL Server
+- **ETL / Transformation:** SQL Scripts
+- **Source Data:** CSV files (ERP & CRM datasets)
+- **Version Control:** Git & GitHub
+- **Documentation:** Draw.io for diagrams, Markdown for docs
